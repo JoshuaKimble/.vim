@@ -1,4 +1,7 @@
+"Pathogen
 execute pathogen#infect()
+"NERDTree
+map <C-n> :NERDTreeToggle<CR>
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
