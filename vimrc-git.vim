@@ -1,14 +1,11 @@
-"Pathogen
+" Pathogen
 execute pathogen#infect()
-"NERDTree
+" the cursor to a vertical line in insert mode and a solid block in command mode
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+let $PAGER=''
+" NERDTree shortcut
 map <C-n> :NERDTreeToggle<CR>
-" Make Vim more useful
-
-" set the cursor to a vertical line in insert mode and a solid block
-" in command mode
-let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
-
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
 " Set color scheme!¬
@@ -28,7 +25,7 @@ set gdefault
 set encoding=utf-8 nobomb
 " Change mapleader
 let mapleader=","
-" Don’t add empty newlines at the end of files
+" Don't add empty newlines at the end of files
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
@@ -54,7 +51,7 @@ set cursorline
 set tabstop=2
 " Enable line numbers
 set number
-" Show “invisible” characters
+" Show "invisible" characters
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set list
 " Highlight searches
@@ -72,17 +69,17 @@ set modelines=4
 set mouse=a
 " Disable error bells
 set noerrorbells
-" Don’t reset cursor to start of line when moving around.
+" Don't reset cursor to start of line when moving around.
 set nostartofline
 " Show the cursor position
 set ruler
-" Don’t show the intro message when starting Vim
+" Don't show the intro message when starting Vim
 set shortmess=atI
 " Show the current mode
 set showmode
 " Show the filename in the window titlebar
 set title
-" Show the (partial) command as it’s being typed
+" Show the (partial) command as it's being typed
 set showcmd
 
 " Start scrolling three lines before the horizontal window border

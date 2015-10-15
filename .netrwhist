@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/joshuakimble/Desktop/this-old-house-widget'
+let g:netrw_dirhist_2='/Users/joshuakimble/.vim/bundle'
+let g:netrw_dirhist_3='/Users/joshuakimble/Desktop/this-old-house-widget'
+let g:netrw_dirhist_4='/Users/joshuakimble/Desktop/work/chubs/test'
+let g:netrw_dirhist_5='/Users/joshuakimble/bash-profile'
+let g:netrw_dirhist_6='/Users/joshuakimble/Desktop/work/canada'
+let g:netrw_dirhist_7='/Users/joshuakimble/bash-profile'
