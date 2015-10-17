@@ -68,6 +68,9 @@ nmap <leader>w :w!<cr>
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
+" turn on mouse 
+set mouse=a
+
 " Turn on the WiLd menu
 set wildmenu
 
@@ -94,7 +97,7 @@ set ignorecase
 set smartcase
 
 " Highlight search results
-set hlsearch
+set hlsearch!
 
 " Makes search act like search in modern browsers
 set incsearch
@@ -107,6 +110,7 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch
+
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
