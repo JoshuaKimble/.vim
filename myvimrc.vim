@@ -23,6 +23,9 @@ set pastetoggle=<F5>
 " NERDTree show hidden files
 let NERDTreeShowHidden=1
 
+" Command-T keymap
+map <c-t> :CommandT<CR>
+
 " NERDTreeToggle keymap
 map <c-\> :NERDTreeToggle<CR>
 vnoremap <C-C> "*ygv
