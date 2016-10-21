@@ -48,7 +48,7 @@ hi FoldColumn   gui=NONE guifg=#40c0ff guibg=#00305c
 
 " Other
 hi Directory    gui=NONE guifg=#40f0d0 guibg=NONE
-hi LineNr       gui=NONE guifg=#9090a0 guibg=NONE
+" hi LineNr       gui=NONE guifg=#9090a0 guibg=NONE
 hi NonText      gui=BOLD guifg=#4080ff guibg=NONE
 hi SpecialKey   gui=BOLD guifg=#8080ff guibg=NONE
 hi Title        gui=BOLD guifg=#f0f0f8 guibg=NONE
@@ -76,3 +76,6 @@ hi htmlBoldUnderlineItalic  gui=BOLD,UNDERLINE,ITALIC
 hi htmlItalic               gui=ITALIC
 hi htmlUnderline            gui=UNDERLINE
 hi htmlUnderlineItalic      gui=UNDERLINE,ITALIC
+
+" custom hi
+hi LineNr term=Bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
